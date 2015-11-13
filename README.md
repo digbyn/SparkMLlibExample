@@ -4,6 +4,7 @@ Target = those new to scala/spark/mlib
 When you can, please review the source examples we will be using here:
 
 https://spark.apache.org/docs/1.5.0/mllib-linear-methods.html
+
 https://spark.apache.org/docs/1.5.0/mllib-naive-bayes.html
 
 
@@ -38,6 +39,7 @@ svm.scala
 The two txt data files will need to be moved over to HDFS for the user HDFS, for example:
 
 sudo -u hdfs hadoop fs -put sample_libsvm_data.txt  /user/hdfs
+
 sudo -u hdfs hadoop fs -put sample_naive_bayes_data.txt  /user/hdfs
 
 Check they all made it!
